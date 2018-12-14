@@ -22,7 +22,37 @@ body {
 }
 
 .page {
-    
+    height: 100vh;
+    max-height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    background-color: $primary;
+    padding: 30px;
+}
+
+.greeting {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.greeting h3 {
+    margin-bottom: 0;
+    padding:0;
+}
+
+.greeting p {
+    margin-top: 10px;
+}
+
+.greeting h1 {
+    margin-bottom: 20px;
+}
+
+.greeting:first-child {
+    max-width: 60vw;
 }
 
 h1 {
@@ -138,9 +168,17 @@ section p {
     margin-bottom:60px;
 }
 
+<<<<<<< HEAD
  .content-wrapper {
     position:absolute;
 }
+=======
+.first p {
+    font-size: 22px;
+}
+
+.second {
+>>>>>>> master
 
 .first .brackets {
     position:sticky;
@@ -219,6 +257,7 @@ p.disclaimer {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .box-top {
     border-bottom: 2px solid $contrast;
     padding: 20px 20px 20px 20px;
@@ -436,4 +475,20 @@ p.bio {
     .term-box li {
         font-size: 14px;
     }
+=======
+.term-box ul {
+    // list-style: none;
+    padding-left:15px;
+}
+
+.term-box:hover {
+    background-color: $secondary;
+    color:white;
+}
+
+footer {
+    text-align:center;
+    font-size: 14px;
+    padding: 10px;
+>>>>>>> master
 }
